@@ -24,7 +24,7 @@ public class Processor {
     processed.set(0);
   }
 
-  public Boolean setEnabled(Boolean enabled) {
+  public Boolean setAvailable(Boolean enabled) {
     available.set(enabled);
     return enabled;
   }

@@ -40,6 +40,6 @@ public class Api {
 
     @PostMapping("v1/available")
     public Boolean setEnabled(@RequestBody Boolean enabled) {
-        return processor.setEnabled(enabled);
+        return processor.setAvailable(enabled);
     }
 }
